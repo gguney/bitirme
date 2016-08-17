@@ -1,0 +1,1309 @@
+<!--Designed Developed By Gokhan Guney-->
+<!--st081101028@etu.edu.tr-->
+* {padding:0; margin:0;}
+body {
+	/*font-family: "Antique Book Cover Regular";	*/
+	color: #000000;	background:url(../images/background.png) no-repeat center;}
+
+#wrap {
+
+padding:10px;height:700px; width:1400px; margin:10px auto 10px auto;}
+#real {padding:20px;background:transperent; height:720px ;width:1350px; overflow:scroll;
+		    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;	-webkit-box-shadow:  0px 0px 2em #4b3532 ;
+    -moz-box-shadow:  0px 0px 2em #4b3532 ;
+    box-shadow:  0px 0px 2em #4b3532 ;}
+#navigatorMenu {	width:500px;margin-left:840px;
+
+
+background:transperent;
+ height:20px;padding-top:20px; width:600px;
+padding-bottom:30px; margin-top:-70px; 
+
+
+	}
+	#real2 {
+	
+	background-color:rgba(80,50,0,0.1);
+ height:280px ;width:1310px; margin-top:10px;margin-left:0px;overflow:scroll;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;}
+
+			#midHeader{background:transperent; height:20px ;width:700px;
+		padding-bottom:10px;
+		padding-top:10px;
+	
+		margin-top:20px;
+		margin-bottom:0px;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+margin-top:300px;
+}
+	#profileMenu {	padding:10px;background-color:rgba(80,50,0,0.1);height:330px ;width:600px;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;overflow:scroll;}
+					#rightHeader{background:transperent; height:20px ;width:700px;
+		padding-bottom:10px;
+		padding-top:10px;
+	
+		margin-top:0px;
+		margin-bottom:10px;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+	margin-top:-330px;
+	margin-left:650px;}
+	#profileMenu2 {
+	
+	background-color:rgba(80,50,0,0.1);
+ height:280px ;width:660px; margin-top:0px;margin-left:650px;overflow:scroll;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;}
+
+
+.header_home {
+	border-radius: 20px;
+            -moz-border-radius: 20px;
+            -khtml-border-radius: 20px;
+            -webkit-border-radius: 20px;
+
+	-webkit-box-shadow:  0px 0px 2em #4b3532 ;
+    -moz-box-shadow:  0px 0px 2em #4b3532 ;
+    box-shadow:  0px 0px 2em #4b3532 ;
+	 background:url(../images/header2.png) no-repeat right;
+	padding-left:20px;
+	width:1376px;
+	 height:60px;
+
+}
+.sitename {
+	text-align:left;display:block; font:28px;/* "Antique Book Cover Regular";*/ color:#fff; height:20px; margin-left:20px; padding:20px 5px 20px 5px; margin:0; text-transform:uppercase; letter-spacing:4px;
+text-decoration:none;
+		text-shadow:4px 4px 6px #271B0C,0px 0px 10px #FFFFFF	;	
+
+	}
+
+.menu {
+	background:transperent;
+ height:20px;padding-top:20px; width:600px;
+padding-bottom:30px; margin-top:-10px; 
+
+
+
+
+	}
+.description {display:block;}
+
+.indexName
+
+{
+	font-size:60px ;
+	/*"Antique Book Cover Regular";*/
+	/*
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	*/
+    background: transparent ;
+
+    color:#fff;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e,0px 0px 20px #FFFFFF;
+	width: 300px;
+	height: 500px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: font 1s,text-shadow 1s,box-shadow 1s,width 1s;
+
+}
+.indexSearch
+
+{
+	font-size:60px ;
+	/*"Antique Book Cover Regular";*/
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	
+    background: transparent ;
+
+    color:#fff;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e,0px 0px 20px #FFFFFF;
+	width: 300px;
+	height: 500px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: font 1s,text-shadow 1s,box-shadow 1s,width 1s;
+
+}
+.indexTops
+
+{
+	font-size:60px ;
+	/*"Antique Book Cover Regular";*/
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e,0px 0px 20px #FFFFFF;
+	width: 300px;
+	height: 500px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: font 1s,text-shadow 1s,box-shadow 1s,width 1s;
+
+}
+.indexTops:hover
+
+{
+cursor: pointer;
+		font-size:80px ;/*"Antique Book Cover Regular";*/
+background-image:url(../images/indexTops.png);
+background-color:rgba(50,30,0,0.3);
+
+	text-shadow:0 0 4px white, 0 -5px 4px #836c5e, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200; 
+		-webkit-box-shadow: 0 3px 50px #2d201e;
+    -moz-box-shadow: 0 3px 50px #2d201e;
+    box-shadow: 0 3px 50px #2d201e;
+	width: 400px;
+
+	-webkit-transition: font 2s,text-shadow 4s,box-shadow 2s,width 1s,background-color 1s;
+
+}
+.indexExperts
+
+{
+	font-size:60px ;
+	/*"Antique Book Cover Regular";*/
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e,0px 0px 20px #FFFFFF;
+	width: 300px;
+	height: 500px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: font 1s,text-shadow 1s,box-shadow 1s,width 1s;
+
+}
+.indexExperts:hover
+
+{
+cursor: pointer;
+		font-size:80px ;/*"Antique Book Cover Regular";*/
+background-image:url(../images/indexExperts.png);
+background-color:rgba(50,30,0,0.3);
+
+	text-shadow:0 0 4px white, 0 -5px 4px #836c5e, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200; 
+		-webkit-box-shadow: 0 3px 50px #2d201e;
+    -moz-box-shadow: 0 3px 50px #2d201e;
+    box-shadow: 0 3px 50px #2d201e;
+	width: 400px;
+
+	-webkit-transition: font 2s,text-shadow 4s,box-shadow 2s,width 1s,background-color 1s;
+
+}
+.indexAnalysis
+
+{
+	font-size:60px;/* "Antique Book Cover Regular";*/
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+margin-right:0px;
+	text-shadow:-0.5px 0.5px 1px #2d201e,0px 0px 20px #FFFFFF;
+	width: 300px;
+	height: 500px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+
+	padding-top:2px;
+	-webkit-transition: font 1s,text-shadow 1s,box-shadow 1s,width 1s,background-color 0.5s;
+
+}
+.indexSearch:hover
+
+{
+cursor: pointer;
+		font-size:80px ;/*"Antique Book Cover Regular";*/
+background-image:url(../images/indexSearch.png);
+background-color:rgba(50,30,0,0.3);
+
+	text-shadow:0 0 4px white, 0 -5px 4px #836c5e, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200; 
+		-webkit-box-shadow: 0 3px 50px #2d201e;
+    -moz-box-shadow: 0 3px 50px #2d201e;
+    box-shadow: 0 3px 50px #2d201e;
+	width: 400px;
+
+	-webkit-transition: font 2s,text-shadow 4s,box-shadow 2s,width 1s,background-color 1s;
+
+}
+.indexAnalysis:hover
+
+{
+	cursor: pointer;
+		font-size:80px;/* "Antique Book Cover Regular";*/
+background-image:url(../images/indexAnalysis.png);
+background-color:rgba(50,30,0,0.3);
+
+	text-shadow:0 0 4px white, 0 -5px 4px #836c5e, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200; 
+		-webkit-box-shadow: 0 3px 50px #2d201e;
+    -moz-box-shadow: 0 3px 50px #2d201e;
+    box-shadow: 0 3px 50px #2d201e;
+	width: 400px;
+
+	-webkit-transition: font 2s,text-shadow 4s,box-shadow 2s,width 1s,background-color 1s;
+
+}
+.navigatorButton
+
+{
+		width: 40px;
+		height:40px;
+	font-size:20px ;/*"Antique Book Cover Regular";*/
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 1px #856D77 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 1px  #856D77 inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 1px #856D77 inset,0 2px #2d201e inset;
+
+
+	border:none;
+    background: transparent ;
+    color:#fff;
+
+
+		    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+
+	text-shadow:2px 2px 4px #2d201e;
+/*
+	background-image:url(../images/backButton.png);
+	*/
+	padding-left:10px;
+	padding-right:4px;
+	padding-bottom:4px;
+	padding-top:4px;
+	-webkit-transition: width 0.5s,background-color 0.5s,text-shadow 0.5s;
+
+}
+.navigatorButton:hover
+
+{
+	
+		width: 170px;
+		height:40px;
+		cursor: pointer;
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 1px #856D77 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 1px  #856D77 inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 1px #856D77 inset,0 2px #2d201e inset;
+
+
+	border:none;
+background-color:rgba(50,30,0,0.3);
+
+
+		text-shadow:10px 10px 6px #271B0C;	
+	-webkit-transition: width 1s,backgroun-color 1s,text-shadow 1s;
+
+}
+.backButton
+
+{
+		width: 100px;
+		height:30px;
+	font-size:20px ;/*"Antique Book Cover Regular";*/
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	
+    background: transparent ;
+background-color:rgba(50,30,0,0.5);
+    color:#fff;
+    border:none;
+    outline:none;
+
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e;
+/*
+	background-image:url(../images/backButton.png);
+	*/
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: font 1s,text-shadow 1s,box-shadow 1s,width 1s;
+
+}
+
+.bigLabel
+
+{
+
+	font-size:24px;/* "Antique Book Cover Regular";*/
+    background: transparent ;
+	font-weight:bold;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+
+	text-shadow:1px 1px 1px #2d201e;
+	width: 100px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+}
+.midLabel
+
+{
+
+	font-size:20px;/* "Antique Book Cover Regular";*/
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+
+	text-shadow:1px 1px 1px #2d201e;
+	width: 100px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+}
+.midLabel2
+
+{
+
+	font-size:18px;/* "Antique Book Cover Regular";*/
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+
+	text-shadow:1px 1px 1px #2d201e;
+	width: 100px;
+
+	padding-right:10px;
+
+}
+.midItalicLabel
+{
+
+	font-size:20px;/* "Antique Book Cover Regular";*/
+	font-style:italic;
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+
+	text-shadow:1px 1px 1px #2d201e;
+	width: 100px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+}
+
+.formButton2
+
+{
+	font-size:18px; /*"Antique Book Cover Regular";*/
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 1px #856D77 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 1px  #856D77 inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 1px #856D77 inset,0 2px #2d201e inset;
+
+
+	border:none;
+    color:#fff;
+
+	background-color:rgba(50,30,0,0.3);
+
+
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+text-shadow: 1px 1px 1px rgba(41, 13, 59, 1);	
+width: 160px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: text-shadow 4s,width 0.5s;
+
+}
+.formButton2:hover
+
+{	cursor: pointer;
+
+
+	text-shadow:2px 2px 2em #2d201e;
+	width: 200px;
+	-webkit-transition: text-shadow 4s,width 1s;
+
+}
+.formButton
+
+{
+	font-size:18px; /*"Antique Book Cover Regular";*/
+	
+	
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 1px #856D77 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 1px  #856D77 inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 1px #856D77 inset,0 2px #2d201e inset;
+
+    border-top: 1px #836c5e groove;
+    border-left: 1px #836c5e groove;
+    border-bottom: 1px #856D77 groove;
+    border-right: 1px #856D77 groove;
+	border:none;
+
+    color:#fff;
+
+	background-color:rgba(50,30,0,0.3);
+    color:#fff;
+
+
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+text-shadow: 1px 1px 1px rgba(41, 13, 59, 1);	
+	width: 120px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	margin-left:4px;
+	margin-right:4px;
+	-webkit-transition: text-shadow 4s,width 0.5s;
+
+}
+.formButton:hover
+
+{	cursor: pointer;
+
+
+	text-shadow:2px 2px 2em #2d201e;
+	width: 140px;
+	-webkit-transition: text-shadow 4s,width 1s;
+
+}
+.formLabel
+
+{
+
+	font-size:18px;/* "Antique Book Cover Regular";*/
+
+ /*background-color:rgba(50,30,0,0.5);*/
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+
+	text-shadow:2px 2px 2px #2d201e ,0px 0px 1px #2d201e;
+	width: 100px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:4px;
+	-webkit-transition: text-shadow 4s,width 1s;
+}
+.formInput
+
+{
+	font-size:20px;/* "Antique Book Cover Regular";*/
+
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,inset 2px 2px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5einset,inset 2px 2px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e inset,inset 2px 2px 3px rgba(0, 0, 0, .3);
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e;
+	width: 200px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: text-shadow 4s,width 1s;
+
+}
+
+.formSelect {
+		font-size:18px;
+		/* "Antique Book Cover Regular";*/
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5einset;
+    box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e inset;
+    background:#836c5e;
+    color:#2d201e;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+	   background:url(../images/drop.png) no-repeat right #ddd;
+
+}
+
+.formSelect2 {
+		font-size:18px ;
+		/*"Antique Book Cover Regular";*/
+    padding:3px;
+    margin: 0;
+	width:50px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5einset;
+    box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e inset;
+    background:#836c5e;
+    color:#2d201e;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+	   background:url(../images/drop.png) no-repeat right #ddd;
+
+}
+
+
+
+.midButton
+
+{
+	font-size:28px;
+	/* "Antique Book Cover Regular";*/
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 1px #856D77 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 1px  #856D77 inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 1px #856D77 inset,0 2px #2d201e inset;
+
+    border-top: 1px #836c5e groove;
+    border-left: 1px #836c5e groove;
+    border-bottom: 1px #856D77 groove;
+    border-right: 1px #856D77 groove;
+	border:none;
+    background: transparent ;
+
+    color:#fff;
+
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+	text-shadow:-0.5px 0.5px 1px #2d201e;
+	width: 260px;
+	height: 80px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	padding-top:6px;
+	margin-left:470px;
+	-webkit-transition: text-shadow 1s,width 0.5s,margin-left 0.5s,background-color 0.5s;
+
+}
+.midButton:hover
+
+{
+		cursor: pointer;
+
+background-color:rgba(50,30,0,0.3);
+
+	text-shadow:2px 2px 10px #2d201e;	
+		text-shadow:10px 10px 6px #271B0C;	
+	width: 400px;
+		margin-left:400px;
+
+	-webkit-transition: text-shadow 1s,width 1s,margin-left 1s,background-color 1s;
+
+}
+span.description {
+		text-shadow:-0.5px 0.5px 1px #2d201e;
+
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+	padding-top:2px;
+    width: 140px;
+	height:12px;
+	    color:#fff;
+    overflow: hidden;
+	text-align:center;
+background-color:rgba(50,30,0,0.5);
+
+
+
+			font-size:14px;
+   -webkit-transition: text-shadow 1s,background-color 1s, width 0.5s,height 0.5s;
+
+
+
+}
+table td.descriptionResizable {
+
+    max-width: 300px;
+	text-align:center;
+	resize: horizontal; 
+	overflow: auto; 
+
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+
+	text-shadow:2px 2px 2px #2d201e ,0px 0px 1px #2d201e;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:4px;
+
+
+	line-height:20px;
+	color:#fff;
+	background-color:rgba(50,30,0,0.5);
+	font-size:18px;/* "Antique Book Cover Regular";*/
+
+}
+table td.description2 {
+	text-shadow:-0.5px 0.5px 1px #2d201e;
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom:2px;
+	padding-top:2px;
+
+    max-width: 180px;
+	max-height:4px;
+	text-align:center;
+overflow:hidden;
+
+	line-height:14px;
+	color:#fff;
+	background-color:rgba(50,30,0,0.5);
+			font-size:16px;
+
+}
+table td.description3 {
+		text-shadow:-0.5px 0.5px 1px #2d201e;
+
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom:2px;
+	padding-top:2px;
+
+
+	    color:#fff;
+
+background-color:rgba(50,30,0,0.5);
+font-size:16px;
+
+
+
+}
+span.description:hover {
+
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	padding-top:6px;
+/*
+	text-shadow:2px 2px 10px #2d201e;	
+		text-shadow:10px 10px 6px #271B0C;	
+	*/
+	text-align:100px;
+ 	overflow:auto;
+    width: 180px;  
+		height:100px;
+
+	/* background:url(../images/back.png);
+	*/
+	background-color:rgba(50,30,0,0.94);
+
+
+   -webkit-transition: text-shadow 1s,background-color 1s, width 1s,height 1s;
+
+}
+
+.description::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+	
+}
+
+.description::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+	border:none;
+}
+
+.description::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+
+
+span.dropdown {
+		text-shadow:-0.5px 0.5px 1px #2d201e;
+
+	    width: 100px;
+	height:200px;
+text-align:center;
+	    color:#fff;
+    overflow: scroll;
+
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+			font-size:12px;
+
+	
+	background-color: yellow;
+	border-bottom-left-radius: 5;
+
+	list-style:none;
+
+
+
+}
+.suggestbox{
+	display: none;
+	width: 220px;
+	height:300px;
+	list-style-type: none;
+
+	margin-top: 20px;
+background-color:rgba(50,30,0,0.3);
+
+	border-bottom-left-radius: 5;
+	overflow:scroll;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+	
+
+
+	
+}
+.suggestboxLi
+{
+	
+	
+	font-size:18px;/* "Antique Book Cover Regular";*/
+
+    background: transparent ;
+
+    color:#fff;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+
+
+	text-shadow:-0.5px 0.5px 1px #2d201e;
+	width: 100px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	padding-top:2px;
+	-webkit-transition: background-color 0.5s;
+}
+.suggestboxLi:hover {
+	
+	cursor: pointer;
+	font-weight:bold;
+	font-style:italic;
+	background-color:rgba(60,30,0,0.9);
+	
+	border-radius: 4px;
+
+	-webkit-transition: background-color 1s;
+}
+
+
+.suggestbox::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+	
+}
+
+.suggestbox::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+	border:none;
+}
+
+.suggestbox::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+
+
+
+#real::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+}
+
+#real::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+}
+
+#real::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+#real2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+}
+
+#real2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+}
+
+#real2::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+#profileMenu2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+}
+
+#profileMenu2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+}
+
+#profileMenu2::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+#profileMenu::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+}
+
+#profileMenu::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+}
+
+#profileMenu::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+
+#analyze::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #836c5e;
+	border-radius: 4px;
+	background-color:transperent;
+}
+
+#analyze::-webkit-scrollbar
+{
+	width: 12px;
+	background-color:transperent;
+}
+
+#analyze::-webkit-scrollbar-thumb
+{
+
+	border-radius: 4px;
+	-webkit-box-shadow: inset 4px 4px 8px #836c5e;
+	background-color: #2d201e;
+    background: #fff;
+    color:#2d201e;
+    border:none;
+    outline:none;
+}
+table.tableArticle
+{
+		border-radius: 20px;
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+
+	width:1000px;
+
+	
+	
+background: rgba(240,249,255,0.9); /* Old browsers */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+	color:#000;
+	margin-left:200px;
+
+	
+}
+table tr td.analyze 
+{
+text-indent:10px;
+margin-right:10px;
+padding-right:20px;
+		border-radius: 20px;
+	-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0  3px  3px #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+
+
+background-color:rgba(50,30,0,0.3);
+
+
+
+}
+table tr.analyze 
+{
+	text-align:left;
+	vertical-align:central;
+overflow:hidden;
+	height:30px;
+max-height:30px;
+
+
+
+}
+
+.scrollbar
+{
+	margin-left: 4px;
+	float: left;
+	height: 4px;
+	width: 4px;
+	overflow-y: scroll;
+	margin-bottom: 4px;
+	
+	
+}
+.link
+{
+	padding-left:10px;
+	padding-right:10px;
+	color:#FEF0BA;
+	text-decoration:none;
+	-webkit-transition: background-color 0.2s;
+}
+.link:hover
+{
+		border-radius: 4px;
+
+	background-color:rgba(60,30,0,0.9);
+		-webkit-transition: background-color 1s;
+
+}
+.link2
+{
+	padding-left:10px;
+	color:#FEF0BA;
+	text-decoration:none;
+	-webkit-transition: background-color 0.2s;
+}
+.link2:hover
+{
+		border-radius: 4px;
+
+	background-color:rgba(60,30,0,0.9);
+		-webkit-transition: background-color 1s;
+
+}
+.italic
+{
+
+	font-family:italic;
+	color:#fff;
+	font-size:12px;
+	
+	
+
+
+	text-shadow:-0.5px 0.5px 1px #2d201e;
+	
+	
+}
+.countBar
+
+{
+
+	font-size:18px;/* "Antique Book Cover Regular";*/
+background: -moz-linear-gradient(left,  rgba(60,30,0,0.69) 0%, rgba(131,108,94,0.63) 43%, rgba(145,237,135,0.56) 97%, rgba(255,255,255,0.56) 99%, rgba(255,255,255,0.56) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(60,30,0,0.69)), color-stop(43%,rgba(131,108,94,0.63)), color-stop(97%,rgba(145,237,135,0.56)), color-stop(99%,rgba(255,255,255,0.56)), color-stop(100%,rgba(255,255,255,0.56))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(60,30,0,0.69) 0%,rgba(131,108,94,0.63) 43%,rgba(145,237,135,0.56) 97%,rgba(255,255,255,0.56) 99%,rgba(255,255,255,0.56) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(60,30,0,0.69) 0%,rgba(131,108,94,0.63) 43%,rgba(145,237,135,0.56) 97%,rgba(255,255,255,0.56) 99%,rgba(255,255,255,0.56) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(60,30,0,0.69) 0%,rgba(131,108,94,0.63) 43%,rgba(145,237,135,0.56) 97%,rgba(255,255,255,0.56) 99%,rgba(255,255,255,0.56) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(60,30,0,0.69) 0%,rgba(131,108,94,0.63) 43%,rgba(145,237,135,0.56) 97%,rgba(255,255,255,0.56) 99%,rgba(255,255,255,0.56) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b03c1e00', endColorstr='#8fffffff',GradientType=1 ); /* IE6-9 */
+
+		-webkit-box-shadow: 0 3px 0 #2d201e;
+    -moz-box-shadow: 0 3px 0 #2d201e;
+    box-shadow: 0  3px  3px #2d201e;
+    color:#fff;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	
+	    border:none;
+    outline:none;
+		    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+height:18px;
+text-align:right;
+
+	text-shadow:2px 2px 2px #2d201e ,0px 0px 1px #2d201e;
+
+
+}
+.logo
+{
+
+width:160px;
+height:160px;
+	margin-right:20px;
+margin-bottom:10px;
+	border-radius: 80px;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .5);
+
+	
+}
+
+#round
+{
+	
+		-webkit-box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e  inset,0 2px #2d201e inset;
+    -moz-box-shadow: 0 3px 0 #2d201e, 0 -1px  #836c5e inset,0 2px #2d201e inset;
+    box-shadow: 0 3px 0 #2d201e, 0 -1px #836c5e inset,0 2px #2d201e inset;
+
+	/*
+	border-width:4px;
+-webkit-border-image:url(../images/border4.png)12 12  round; 
+-o-border-image:url(../images/border4.png) 12 12 round; 
+border-image:url(../images/border4.png)12 12 round;
+
+*/
+}
